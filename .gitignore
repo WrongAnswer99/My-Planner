@@ -1,0 +1,59 @@
+# Build directories
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/dist/
+
+# In-source CMake artifacts
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeScripts/
+/CMakeTmp/
+/Testing/
+/_deps/
+/cmake_install.cmake
+/CTestTestfile.cmake
+/CPackConfig.cmake
+/CPackSourceConfig.cmake
+/Makefile
+/build.ninja
+/.ninja_deps
+/.ninja_log
+/compile_commands.json
+/install_manifest.txt
+
+# Compiled binaries and debug symbols
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# Local dependencies
+/thirdparty/
+
+# Runtime data
+myplan-data.json
+myplan-data.json.tmp
+myplan-data.json.bak
+
+# Locally supplied fonts
+/resources/fonts/
+
+# Editors and IDEs
+/.vscode/
+/.idea/
+/.trae/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
